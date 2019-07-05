@@ -21,7 +21,7 @@ I specifically placed them as shown above so I get a good understanding of the p
 First of all I knew that they had to be sorted to make sure that the ones with the smallest start value are always on the top position (Interval 1). <br>
 Furthermore it was clear to me that I had to check if the Interval 2 (the one on the bottom position) is overlapping with 1, 
 thus Interval 1's end has to be greater than Intervals 2's start. 
-If the end of Interval 2 is greater than the end of Interval 1 the value has to be saved, since these intervals are going to be merged (there for the buffer). <br>
+If the end of Interval 2 is greater than the end of Interval 1 the value has to be saved, since these intervals are going to be merged (therefore the buffer). <br>
 If an Interval, which does not overlap emerges, I thought that the buffered (and merged) interval from before has to be saved to an output list.
 And that the new not-overlapping interval could be stored in Interval 1's position (in the buffer) and used to be compared to the rest. 
 This approach/solution is only made possible by sorting the input list beforehand.
