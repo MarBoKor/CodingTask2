@@ -19,7 +19,7 @@ I started writing down some simple intervals with all the numbers they are conta
 	 Interval 2 - [6, 10]:		      [ 6, 7, 8, 9, 10 ]</pre>
 I specifically placed them as shown above so I get a good understanding of the problem, and then the answer was clear.
 First of all I knew that they had to be sorted to make sure that the ones with the smallest start value are always on the top position (Interval 1). <br>
-Furthermore it was clear to me that I had to check if Interval 2 (the one on the bottom position) is overlapping with 1, which is the case if Interval 2 starts within Interval 1. Therefore Interval 1's end has to be greater than Intervals 2's start. <br>
+Furthermore it was clear to me that I had to check if Interval 2 (the one on the bottom position) is overlapping with 1, which is the case if Interval 2 starts within Interval 1. Therefore Interval 1's end has to be greater than or equal to Intervals 2's start. <br>
 If the end of Interval 2 is greater than the end of Interval 1 (but Interval 2 start within Interval 1) they are going to be merged. <br>
 If an Interval in slot 2 (Interval 2) does not overlap, Interval 1 has to be saved to the output list.
 And the not overlapping interval in slot 2 has to be stored in Interval 1's position and used to be compared to the rest of the intervals of the input list (which means that we need to iterate through the list). 
