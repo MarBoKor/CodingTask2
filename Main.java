@@ -13,7 +13,7 @@ public class Main {
 		Interval B = new Interval(2, 19);
 		Interval C = new Interval(14, 23);
 		Interval D = new Interval(4, 8);
-		Interval E = new Interval(33, 65);
+		Interval E = new Interval(23, 65);
 		
 		ArrayList<Interval> input = new ArrayList<Interval>();
 		input.add(A);
@@ -74,10 +74,10 @@ public class Main {
 			 * Example:		Interval 1 - [4, 8]:		[ 4, 5, 6, 7, 8 ]
 			 *				Interval 2 - [6, 10]:		      [ 6, 7, 8, 9, 10 ]
 			 * From the example we can see that the sorting before helped a lot. Now we only have to check for 2 conditions in oder to tell if the intervals are overlapping:
-			 * 	- Condition 1: The end of Interval 1 has to be greater than the start of Interval 2. 8 > 6
+			 * 	- Condition 1: The end of Interval 1 has to be greater than or equal to the start of Interval 2. 8 > 6
 			 * 	- Condition 2: The end of Interval 1 has to be smaller than the end of Interval 2. 8 < 10
 			 */	
-			if((bufferInterval.end > currentInterval.start) && // Making sure that the current interval starts within the bounds of the buffer interval.
+			if((bufferInterval.end >= currentInterval.start) && // Making sure that the current interval starts within the bounds of the buffer interval.
 					(bufferInterval.end < currentInterval.end)) { // Making sure that the current interval ends after the buffer interval.
 				bufferInterval.end = currentInterval.end; // Save the end of the current interval in the buffer since they were overlapping.
 			} 
