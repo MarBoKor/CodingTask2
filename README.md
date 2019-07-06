@@ -47,7 +47,7 @@ The general idea of the algorithm is summarized in the following list:
 	* In the last iteration of the loop add the buffer interval to the output.
 	
 #### Answers:
-**Question 1:** Wie ist die Laufzeit Ihres Programms?
+**Question 1:** Wie ist die Laufzeit Ihres Programms?<br>
 O(N x Log N) due to the usage of Javas mergesort algorithm. (The complexity of the merge part is linear).
 
 **Question 2:** Wie kann die Robustheit sichergestellt werden, vor allem auch mit Hinblick auf sehr große Eingaben?		
