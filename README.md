@@ -63,5 +63,5 @@ O(N x Log N) due to the usage of Java's mergesort algorithm. (The complexity of 
 * The output list is an dynamic array (ArrayList) as well. 
 			
 #### Misc:			
-This was a fun thing to do. Time to get schwifty.
+This was a fun thing to do. Time to get schwifty.<br>
 Thanks. :D
