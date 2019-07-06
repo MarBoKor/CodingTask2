@@ -74,7 +74,7 @@ public class Main {
 			 * Example:		Interval 1 - [4, 8]:		[ 4, 5, 6, 7, 8 ]
 			 *				Interval 2 - [6, 10]:		      [ 6, 7, 8, 9, 10 ]
 			 * From the example we can see that the sorting before helped a lot. Now we only have to check for 2 conditions in oder to tell if the intervals are overlapping:
-			 * 	- Condition 1: The end of Interval 1 has to be greater than or equal to the start of Interval 2. 8 > 6
+			 * 	- Condition 1: The end of Interval 1 has to be greater than or equal to the start of Interval 2. 8 >= 6
 			 * 	- Condition 2: The end of Interval 1 has to be smaller than the end of Interval 2. 8 < 10
 			 */	
 			if((bufferInterval.end >= currentInterval.start) && // Making sure that the current interval starts within the bounds of the buffer interval.
