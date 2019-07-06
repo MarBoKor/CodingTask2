@@ -58,7 +58,7 @@ O(N x Log N) due to the usage of Java's mergesort algorithm. (The complexity of 
 			
 **Question 3:** Wie verhält sich der Speicherverbrauch Ihres Programms?
 * Currently for the input list an dynamic array (ArrayList) of Interval objects are used.
-* An Interval object holds 2 integer. (For N elements it would be 2x32-bitxN + bits for overhead). 
+* An Interval object holds 2 integer. (For N elements it would be 2 x 32bit x N + bits for overhead). 
 * The dynamic array (ArrayList) is initiated with 10 slots and increased by 50% when the last slot is filled.
 * The output list is an dynamic array (ArrayList) as well. 
 			
