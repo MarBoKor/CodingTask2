@@ -14,7 +14,7 @@ public class Interval {
 	
 	// Constructor:
 	/** 
-	 * This is the default constructor of the Interval-class.
+	 * This is a non-default constructor of the Interval-class.
 	 * 
 	 * @param	start Left end of the interval, thus it should be smaller or equal the 'end'.
 	 * @param	end Right end of the interval, thus it should be greater or equal the 'start'.
