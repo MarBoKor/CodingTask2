@@ -7,7 +7,6 @@
 - The intervals are int tuples.
 - The Interval-class is only used within the same package as where it is used from. 
   (Done this for simplicity reason).
-  (Currently this is only done in the constructor).
 - The Interval objects are initiated by using the implemented constructor. (Which, as already mentioned, will make sure that the values are on the correct position).
 - The input list does not contain Interval objects which are null.
 
