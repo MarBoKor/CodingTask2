@@ -11,7 +11,7 @@
 - The input list does not contain Interval objects which are null.
 
 #### Solution Idea (Lösungsidee):
-I usually draw and write on a blank peace of paper before I start programming, because this helps me thinking.<br>
+I usually draw and write on a blank piece of paper before I start programming, because this helps me thinking.<br>
 I started writing down some simple intervals with all the numbers they are containing:<br>
 <pre>
 	 Interval 1 - [4, 8]:		[ 4, 5, 6, 7, 8 ]
